@@ -27,12 +27,10 @@ I chose the domain of WSU off-campus housing experiences. This knowledge is valu
 | 5 | Reddit: Best one-bedroom apartments | Reddit thread about one-bedroom apartment recommendations, including location, management, and bus access. | https://www.reddit.com/r/wsu/comments/1k3217j/best_one_bedroom_apartments/ | 
 | 6 | Reddit: Apartment recommendations | Reddit thread asking for apartment recommendations with specific requirements such as studio or one-bedroom, washer/dryer, dishwasher, internet, and budget. | https://www.reddit.com/r/wsu/comments/1e9t3zw/apartment_recommendations/ | 
 | 7 | Reddit: Living and rental cost around WSU | Reddit thread discussing living costs and rental costs around WSU/Pullman. | https://www.reddit.com/r/wsu/comments/18stqkq/help_me_evalaute_living_and_rental_cost_aroud_wsu/ | 
-| 8 | WSU Off-Campus Living Marketplace | Official WSU off-campus living marketplace. Included for background context about WSU-supported off-campus housing resources. | https://offcampusliving.wsu.edu/ | 
-| 9 | WSU Off-Campus Living Guide | Official WSU Off-Campus Living Guide with renter information, lease guidance, rights, and responsibilities. Included as background context, not student opinion. | https://offcampusliving.wsu.edu/assets/campus_assets/wsu/2020-2021-Off-Campus-Living-Guide.pdf | 
-| 10 | Reddit: Is DABCO really that bad? | Reddit thread discussing DABCO/Churchill Downs apartments, including student opinions about whether the property management or apartment experience is actually bad. | https://www.reddit.com/r/wsu/comments/nftuii/is_dabco_really_that_bad_looking_at_churchill/ | 
-| 11 | Reddit: Moving off campus before housing contract | Reddit thread about moving off campus before entering a housing contract, useful for understanding student concerns about lease timing, housing commitments, and switching from on-campus to off-campus housing. | https://www.reddit.com/r/wsu/comments/1m02cwg/moving_off_campus_before_entering_housing_contract/ | 
-| 12 | Reddit: Looking into apartments | Reddit thread where a student asks about looking into apartments near WSU, useful for apartment recommendations, housing concerns, and decision factors. | https://www.reddit.com/r/wsu/comments/1mupkh7/looking_into_apartments/ | 
-| 13 | Reddit: Housing questions | Reddit thread with housing-related questions from WSU students, useful for common concerns about off-campus living, apartment choices, and student advice. | https://www.reddit.com/r/wsu/comments/1ouycb7/housing_questions/ |
+| 8 | Reddit: Is DABCO really that bad? | Reddit thread discussing DABCO/Churchill Downs apartments, including student opinions about whether the property management or apartment experience is actually bad. | https://www.reddit.com/r/wsu/comments/nftuii/is_dabco_really_that_bad_looking_at_churchill/ | 
+| 9 | Reddit: Moving off campus before housing contract | Reddit thread about moving off campus before entering a housing contract, useful for understanding student concerns about lease timing, housing commitments, and switching from on-campus to off-campus housing. | https://www.reddit.com/r/wsu/comments/1m02cwg/moving_off_campus_before_entering_housing_contract/ | 
+| 10 | Reddit: Looking into apartments | Reddit thread where a student asks about looking into apartments near WSU, useful for apartment recommendations, housing concerns, and decision factors. | https://www.reddit.com/r/wsu/comments/1mupkh7/looking_into_apartments/ | 
+| 11 | Reddit: Housing questions | Reddit thread with housing-related questions from WSU students, useful for common concerns about off-campus living, apartment choices, and student advice. | https://www.reddit.com/r/wsu/comments/1ouycb7/housing_questions/ |
 
 ---
 
@@ -91,7 +89,7 @@ For a production system, I would compare embedding models based on retrieval acc
 | 2 | What do students say about DABCO or Churchill Downs? | The answer should summarize student opinions from the DABCO/Churchill Downs thread, including whether students describe the experience as bad, acceptable, or dependent on specific issues. | 
 | 3 | What factors do students mention when choosing off-campus housing near WSU? | The answer should mention factors such as rent, location, walkability, bus access, parking, roommates, maintenance, management quality, and apartment amenities if they appear in the sources. | 
 | 4 | What do students say about one-bedroom or studio apartments in Pullman? | The answer should summarize recommendations or concerns from the one-bedroom/studio-related Reddit threads and cite those sources. | 
-| 5 | What official guidance does WSU provide for students living off campus? | The answer should use the WSU Off-Campus Living Marketplace and Off-Campus Living Guide to mention official resources, renter guidance, lease information, and housing listings. |
+| 5 | What do students say about apartment management or maintenance problems? | The answer should summarize student comments about management quality, maintenance responsiveness, utilities, deposits, or communication problems, and cite the relevant Reddit threads. |
 
 ---
 
@@ -121,11 +119,11 @@ For a production system, I would compare embedding models based on retrieval acc
 
 ```text 
 Raw Sources
-(Reddit threads, WSU Off-Campus Living pages, WSU PDF guide) 
+(Reddit threads saved as local HTML/text files) 
      | 
      v 
-Document Ingestion 
-(Python scripts, requests/manual text files, pdfplumber for PDF if needed) 
+Document Ingestion
+(Python scripts extracting text from saved Reddit HTML files) 
      | 
      v 
 Cleaning + Preprocessing 

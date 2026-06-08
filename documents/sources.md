@@ -31,22 +31,16 @@ This project focuses on student experiences with off-campus housing near Washing
 7. URL: https://www.reddit.com/r/wsu/comments/18stqkq/help_me_evalaute_living_and_rental_cost_aroud_wsu/
    Description: Reddit thread discussing living costs and rental costs around WSU/Pullman.
 
-8. URL: https://offcampusliving.wsu.edu/
-   Description: Official WSU off-campus living marketplace. Included for background context about WSU-supported off-campus housing resources.
-
-9. URL: https://offcampusliving.wsu.edu/assets/campus_assets/wsu/2020-2021-Off-Campus-Living-Guide.pdf
-   Description: Official WSU Off-Campus Living Guide with renter information, lease guidance, rights, and responsibilities. Included as background context, not student opinion.
-
-10. URL: https://www.reddit.com/r/wsu/comments/nftuii/is_dabco_really_that_bad_looking_at_churchill/
+8. URL: https://www.reddit.com/r/wsu/comments/nftuii/is_dabco_really_that_bad_looking_at_churchill/
     Description: Reddit thread discussing DABCO/Churchill Downs apartments, including student opinions about whether the property management or apartment experience is actually bad.   
 
-11. URL: https://www.reddit.com/r/wsu/comments/1m02cwg/moving_off_campus_before_entering_housing_contract/
+9. URL: https://www.reddit.com/r/wsu/comments/1m02cwg/moving_off_campus_before_entering_housing_contract/
     Description: Reddit thread about moving off campus before entering a housing contract, useful for understanding student concerns about lease timing, housing commitments, and switching from on-campus to off-campus housing.
 
-12. URL: https://www.reddit.com/r/wsu/comments/1mupkh7/looking_into_apartments/
+10. URL: https://www.reddit.com/r/wsu/comments/1mupkh7/looking_into_apartments/
     Description: Reddit thread where a student asks about looking into apartments near WSU, useful for apartment recommendations, housing concerns, and decision factors.
 
-13. URL: https://www.reddit.com/r/wsu/comments/1ouycb7/housing_questions/
+11. URL: https://www.reddit.com/r/wsu/comments/1ouycb7/housing_questions/
     Description: Reddit thread with housing-related questions from WSU students, useful for common concerns about off-campus living, apartment choices, and student advice.
 
 ## Questions This System Should Answer
@@ -64,5 +58,5 @@ This project focuses on student experiences with off-campus housing near Washing
 - After skimming the Reddit threads, I noticed that they are mostly short student comments and recommendations rather than long articles.
 - The key information is opinion-based and often spread across multiple comments.
 - Some comments mention specific apartment complexes or property managers.
-- Official WSU pages are useful for background context, but the main unofficial knowledge comes from student discussions.
+- All sources are Reddit student discussion threads, so the corpus focuses on unofficial student experiences rather than official housing information.
 - For Milestone 2, chunking should probably preserve full Reddit comments or short groups of related comments rather than splitting mechanically every few hundred characters.
