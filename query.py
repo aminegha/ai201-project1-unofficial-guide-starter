@@ -163,12 +163,11 @@ def print_answer(question: str) -> None:
 
 
 if __name__ == "__main__":
-    test_questions = [
-        "Which off-campus apartments near WSU do students recommend?",
-        "What do students say about DABCO or Churchill Downs?",
-        "Which apartments or property managers do students warn against?",
-        "What is the best laptop for computer science students?",
-    ]
+    test_questions = ["Which off-campus apartments near WSU do students recommend?", 
+   "Which apartments or property managers do students warn against?",
+   "What do students say about DABCO or Churchill Downs?",
+   "What factors matter most when choosing off-campus housing near WSU?",
+   "What do students say about one-bedroom or studio apartments in Pullman?"]
 
     for q in test_questions:
         print_answer(q)
